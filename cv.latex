@@ -1,0 +1,196 @@
+\documentclass[11pt, sans, english,a4paper]{moderncv}
+\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvcolor{green}   
+\usepackage{color, colortbl}
+\usepackage{tcolorbox}
+\usepackage{tabularx}
+\definecolor{tableRow}{rgb}{0.9,0.9,0.9}
+\definecolor{tableGreen}{rgb}{0.7,0.7.0.7}
+\usepackage[scale=0.75]{geometry}
+
+\name{Edgar Paul}{Klerks} 
+\title{CV Edgar Klerks}
+\email{edgar.klerks@gmail.com}
+\address{Apolloplantsoen 19}{1501BD Zaandam}{Netherlands}
+\homepage{github.com/edgarklerks}
+\social[skype]{edgar-klerks}
+\tcbset{tab1/.style={fonttitle=\bfseries\large,colback=green!20}}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\begin{document}
+
+\makecvtitle
+
+
+\section{Experience}
+
+\cventry{2015-current}{Lead software engineer}{Sanoma Digital}{Hoofddorp}{}{}{
+
+I am maintaining a platform running various big data related service, while also offering support to the end user. At the same time I am migrating the platform to AWS. 
+I am working with:
+\center{
+\begin{itemize}
+        \item Hadoop, Hadoop-streaming, Java
+        \item Hive, HiveQL, Hue 
+        \item Cloudera
+        \item Java
+        \item Scala, Scalding, Spark
+        \item Bash
+        \item PostgreSQL
+        \item Python
+        \item AWS (Emr, Ec2)
+        \item Chef
+\end{itemize}
+}
+}
+
+
+\cventry{2013-2015}{Lead/Senior Software Engineer}{Sanoma Digital}{Hoofddorp}{}{}{
+At Sanoma I develop a search engine for magazines. I  was busy with semantical analysis, image analysis and maintaining servers.
+
+The project works with SOLR, Django, Celery, RabbitMQ and Mongo and is just out of the beta phase.
+
+Later I became the lead of the project and created the architecture for a rewrite. The reason for the rewrite was that their was a significant amount of technical debt and that it didn't meet business requirements. The project was started small and it slowly became a backbone of the company.  I mapped out business requirements and made an architecture, which could scale with our internal clients. 
+\center{
+\begin{itemize}
+        \item Django Framework
+        \item Python
+        \item MongoDB
+        \item PostgreSQL
+        \item SOLR
+        \item Celery
+        \item RabbitMQ
+        \item 0MQ
+        \item Puppet
+\end{itemize}
+}
+}
+
+
+\cventry{2012-2013}{Senior Software Developer}{Factory4Web}{Amsterdam}{}{}{
+I was a back end developer for a social marketing tool and responsible for performance tuning and monitoring of the sites.
+I worked with Zend framework version 1 and doctrine 2. 
+
+
+I programmed mainly PHP, some perl. 
+Unfortunately the company went bankrupt, when the financial crisis hit the kitchen market.
+
+}
+
+\cventry{2010-2012}{Founder}{I-Bytes BV}{Amsterdam}{}{}{
+
+I developed with the team a small social network, with which people could upload photographs, video's or other media files to their profiles and chat with friends. The server was developed in Snap and was designed as a REST api.  We developed a webclient and a mobile client for both iPhone and Android. On the Android I programmed in Java. On the iPhone objective-c. 
+
+We later developed a game for Heineken, which ran on the same architecture as above. It was quite a success and also made a tool, so Heineken could get demographic information about it's users. People could play this with mobile phones at the heineken user experience. We developed some software to show it on big screens in the heineken experience, which ran on self developed hardware.  
+}
+
+I programmed mainly in Haskell and use a variety of products.
+
+\center{
+\begin{itemize}
+        \item Haskell 
+        \item Snap Framework 
+        \item PostgreSQL
+        \item 0MQ
+        \item Java
+        \item Objective-c
+\end{itemize}
+}
+
+
+
+\cventry{2009 - 2010}{System admin/Developer}{Goodforall}{Naarden}{}{}{		
+Setting up the webshop facilities for clients as well as the company itself 
+Responsible for the development and implementation objectives of Goodforall 
+
+I worked with PHP, OsCommerce and various payment service providers (ogone and adyen). I also implemented track and trace, storage management and a connection to the book keeping program. 
+}
+\cventry{2007-2009}{Freelance developer}{Various}{Various}{}{}{
+Acquisition and management of clients 
+Development of websites and online applications for various clients and businesses 
+Development of online representation and marketing development environment, integrating the development of websites, online applications, intranets, CMS, CRM and e-mail marketing features 
+
+I mainly developed in Perl, I used several CPAN packages. One of the more handy was Rose::DB. I worked with SugarCRM and made several changes to it. I also developed several websites for a client with an internal framework in PHP. 
+}
+
+
+
+\cventry{2007-2008}{Developer}{Sonologic}{Amsterdam}{}{}{ 
+Responsible for different projects for local governments 
+Creating and developing a wide range of websites 
+
+I worked with Twiki and Wordpress, google maps and an internal framework. Programming languages: Perl and PHP.
+}
+
+\section{Extracurricular activities}
+
+\cventry{2006-2007}{Teaching assistent}{UvA}{Amsterdam}{}{}{
+Teaching mathematics and physics practicum as student assistant for the university of Amsterdam.
+}
+
+\section{Natural languages}
+
+\cvitemwithcomment{Dutch}{Native}{}
+\cvitemwithcomment{English}{Excellent}{Writing}
+\cvitemwithcomment{English}{With accent}{Speaking}
+\cvitemwithcomment{German}{Basic}{Reading}
+
+\section{Programming languages}
+
+Some languages I have used professionally:
+
+\begin{tcolorbox}[tabularx={Y|Y|Y|X},tab1,title=Language knowledge]
+        Language & Skill level & Year of last professional use & Years of use \\
+        \hline
+        \rowcolor{tableRow}Perl & Senior & 2015 & 10 \\
+        PHP & Medior & 2007 & 5 \\
+        \rowcolor{tableRow}Haskell & Senior & 2015 & 7 \\
+        C++ & Medior & 2010 & 5 \\
+        \rowcolor{tableRow} Scala & Junior & 2016 & 1 \\
+        C & Senior & 2014 & 6 \\
+        \rowcolor{tableRow} Mathematica & Senior & 2007 & 5 \\
+        Python & Senior & 2016 & 6  \\
+        \rowcolor{tableRow} Tcl & Medior & 2015 & 1 \\
+        Scala & Junior & 2015 & 1 \\ 
+        \rowcolor{tableRow} Java & Medior & 2016 & 3 \\
+        Bash & Senior & 2016 & 10 \\
+        \rowcolor{tableRow} Javascript & Senior & 2014 & 8 \\
+        Sh & Senior & 2016 & 10 \\
+\end{tcolorbox}
+
+I have a preference for language with advanced static and strong type systems.  
+
+In hobby projects I used TCL, Cyclone, Pure, Cayenne, COQ, Agda, Idris, Factor, Forth, Lisp, Scheme, Typed Racket, Star Logo, Lua and probably more. 
+
+I have an interest in Scala, because of the advanced typesystem. 
+
+I am now deepening my knowledge on COQ, which is an interactive prove assistent, so I can use it to make package of which I can show they are correct. 
+
+\section{Operating systems}
+
+I have extensive knowledge of UNIX, the Posix standard. Linux and *BSD. I prefer working on the command line and I know how to read a manpage :) 
+
+And a bit of experience with Minix 3, HaskellVM and XEN. 
+
+\section{Other technologies}
+
+I have experience working with SOLR, ElasticSearch, PostgreSQL, MySQL, Apache, Lighthttpd, nginx, redis, Hadoop, Spark, Storm and more.
+
+I have also worked with various frameworks: Snap, SQLAlchemy, Rose\dots DB, Django, Flask and more. 
+
+\section{Education}
+
+\cventry{2003--2007}{Physics}{UvA}{Amsterdam}{}{
+I have studied physics and was quite good at it, I always did extra math courses. Unfortunately I couldn't finished, because I got a child and my parents deceased in a short time span. 
+}
+\cventry{1996-2002}{VWO}{Horizon college}{Alkmaar}{}{
+Little noticable here. I had a beta profile. 
+}
+
+\section{Interests}
+
+Mathematics is one of my main interests. I especially enjoy category theory, because it is applicable to programming. I also like to write poetry. I have an interest in chemistry, horse-back riding and I like to build mathematical models of phenomena I encounter. And have done judo, karate and kickboxing and I am now doing ju-jitsu. 
+
+\end{document}
