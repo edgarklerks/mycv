@@ -181,9 +181,9 @@ I have worked with a variety of people. Other people describe me as easy going, 
 \section{Coding style}
 
 My coding style is strongly influenced by functional programming. I find testing very important, but I try to do it in a lazy way, by reasoning about the code and using QuickCheck style libraries, 
-which will generate the test cases for you based on a type specification. For an example on professional level see:  https://github.com/edgarklerks/composablepairingheap 
+which will generate the test cases for you based on a type specification. For an example on professional level see:  https://github.com/edgarklerks/composablepairingheap  \\
 
-I also like to use the type system to make code more robust or if the language doesn't have a strong enough type system, then I will use contracts.
+I also like to use the type system to make code more robust or if the language doesn't have a strong enough type system, then I will use contracts. I find that it is a great tool to reason about your code and it also reduces the amount of tests to the bare minimum.
 
 I am a documenter, I write a lot of documents about my code and I also like to create designs upfront of what I am going to make. 
 
