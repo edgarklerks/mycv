@@ -1,5 +1,6 @@
 \documentclass[11pt, sans, english,a4paper]{moderncv}
-\moderncvstyle{banking}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'banking', 'oldstyle' and 'fancy'
+
 \moderncvcolor{green}   
 \usepackage{color, colortbl}
 \usepackage{tcolorbox}
@@ -12,8 +13,9 @@
 \title{CV Edgar Klerks}
 \email{edgar.klerks@gmail.com}
 \address{Apolloplantsoen 19}{1501BD Zaandam}{Netherlands}
-\homepage{github.com/edgarklerks}
-\social[skype]{edgar-klerks}
+\social[github]{edgarklerks}
+\extrainfo{skype: edgar-klerks}
+\photo[64pt][0.4pt]{IMG_0545.JPG}
 \tcbset{tab1/.style={fonttitle=\bfseries\large,colback=green!20}}
 \newcolumntype{Y}{>{\raggedright\arraybackslash}X}
 \usepackage[T1]{fontenc}
