@@ -84,7 +84,8 @@ Unfortunately the company went bankrupt, when the financial crisis hit the kitch
 I developed with the team a small social network, with which people could upload photographs, video's or other media files to their profiles and chat with friends. The server was developed in Snap and was designed as a REST api.  We developed a webclient and a mobile client for both iPhone and Android. On the Android I programmed in Java. On the iPhone objective-c. 
 
 We later developed a game for Heineken, which ran on the same architecture as above. It was quite a success and also made a tool, so Heineken could get demographic information about it's users. People could play this with mobile phones at the heineken user experience. We developed some software to show it on big screens in the heineken experience, which ran on self developed hardware.  
-}
+
+We also developed a strategic race management simulation game. This never left beta, because the company went broke.
 
 I programmed mainly in Haskell and use a variety of products.
 
@@ -100,7 +101,9 @@ I programmed mainly in Haskell and use a variety of products.
 }
 
 
+During this time I led a team of 7 people. 
 
+}
 \cventry{2009 - 2010}{System admin/Developer}{Goodforall}{Naarden}{}{}{		
 Setting up the webshop facilities for clients as well as the company itself 
 Responsible for the development and implementation objectives of Goodforall 
@@ -167,6 +170,13 @@ In hobby projects I used TCL, Cyclone, Pure, Cayenne, COQ, Agda, Idris, Factor, 
 I have an interest in Scala, because of the advanced typesystem. 
 
 I am now deepening my knowledge on COQ, which is an interactive prove assistent, so I can use it to make package of which I can show they are correct. 
+
+\section{People skills}
+I am a liberal team lead, who works on base of trust. My motto is to better ask forgiveness then to ask permission and think first then code.  
+I am a calm, stable personality, who doesn't take things to personal and always try to look from the others perspective. 
+I like to bring over my knowledge (even the obscure knowledge) and are always willing to learn from others. 
+
+I have worked with a variety of people. Other people describe me as easy going, but strict.  
 
 \section{Operating systems}
 
