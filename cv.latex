@@ -176,7 +176,16 @@ I am a liberal team lead, who works on base of trust. My motto is to better ask 
 I am a calm, stable personality, who doesn't take things to personal and always try to look from the others perspective. 
 I like to bring over my knowledge (even the obscure knowledge) and are always willing to learn from others. 
 
-I have worked with a variety of people. Other people describe me as easy going, but strict.  
+I have worked with a variety of people. Other people describe me as easy going, a bit chaotic and strict.  
+
+\section{Coding style}
+
+My coding style is strongly influenced by functional programming. I find testing very important, but I try to do it in a lazy way, by reasoning about the code and using QuickCheck style libraries, 
+which will generate the test cases for you based on a type specification. For an example on professional level see:  https://github.com/edgarklerks/composablepairingheap 
+
+I also like to use the type system to make code more robust or if the language doesn't have a strong enough type system, then I will use contracts.
+
+I am a documenter, I write a lot of documents about my code and I also like to create designs upfront of what I am going to make. 
 
 \section{Operating systems}
 
