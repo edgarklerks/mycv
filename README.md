@@ -4,11 +4,14 @@ This repository holds my CV. It is made in latex. After losing my previous one, 
 
 I use the excellent moderncv package together with some modifications. One of the interesting features is a table with languages I know.
 
-I would like to have a table of contents for webview.
+I made it opensource, so reqruiters are free to modify it and other people to reuse it (but in that case, please remove my personal data :))
+
 
 # TODO
 
-Unfortunately I cannot use pandoc to change it to other formats, due to the use of tabularx  and tcolortable.
+Unfortunately I cannot use pandoc to change it to other formats, due to the use of tabularx  and tcolortable. Maybe I can extend it. 
+
+
 
 # INSTALL
 
