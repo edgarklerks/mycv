@@ -17,4 +17,4 @@ Unfortunately I cannot use pandoc to change it to other formats, due to the use 
 
 # Download precompiled one
 
-Click https://github.com/edgarklerks/mycv/raw/master/cv.pdf  above to view it.
+Click [here](https://github.com/edgarklerks/mycv/raw/master/cv.pdf)  above to view it.
