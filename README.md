@@ -12,4 +12,9 @@ Unfortunately I cannot use pandoc to change it to other formats, due to the use 
 
 # INSTALL
 
-Click cv.pdf above to view it.
+	pdflatex  cv.latex
+	pdflatex  cv.latex
+
+# Download precompiled one
+
+Click https://github.com/edgarklerks/mycv/raw/master/cv.pdf  above to view it.
